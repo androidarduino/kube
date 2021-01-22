@@ -1,0 +1,105 @@
+kubectl get pods
+kubectl get deployment
+kubectl get rc
+kubectl expose rc fastapi --type=LoadBalancer --name fastapi-http
+kubectl get nodes
+kubectl get pods
+kubectl get rc
+kubectl run fastapi --image fastapiimage --port=80 --generator=run/v1
+kubectl get rc
+kubectl get pods
+docker ps
+docker rm 75f
+docker stop 75f
+docker rm 75f
+docker ps
+docker ps -a
+docker rm ec7
+docker ps -a
+kubectl get pods
+curl 0.0.0.0/docs
+kubectl delete pod fastapi
+kubectl get pods
+kubectl get pods --containers
+kubectl top pods --containers
+kubectl top pods --containers -n dev
+pwd
+ls
+ls
+ls
+vi pod.yaml
+ls
+kubectl get pods
+kubectl get pods -n dev
+kubectl get pod savi-api-demo-vb5p4-deployment-854f86df9f-5vjx8 -o yaml
+kubectl get pod savi-api-demo-vb5p4-deployment-854f86df9f-5vjx8 -o yaml -n dev
+kubectl get pod savi-api-demo-vb5p4-deployment-854f86df9f-5vjx8 -o yaml -n dev | less
+docker push fastapi
+docker push fastapiimage
+docker push vrcats/fastapiimage
+docker image ls
+docker tag 0b9c vrcats/fastapiimage
+docker push vrcats/fastapiimage
+ls
+cat fastapi.yaml
+kubectl apply -f fastapi.yaml
+kubectl apply -f fastapi.yaml
+kubectl apply -f fastapi.yaml
+kubectl apply -f fastapi.yaml
+kubectl get pods
+kubectl get pods
+kubectl get pods
+kubectl get pods
+kubectl get pods
+kubectl get pods
+kubectl get pods
+kubectl get pods
+kubectl get pods
+kubectl describe pods fastapi-vrcats
+kubectl top --containers
+kubectl top pods --containers
+kubectl top pods --containers
+kubectl top pods 
+kubectl top pods 
+kubectl top pods 
+kubectl top pods 
+kubectl top pods 
+kubectl top pods 
+kubectl top pods 
+kubectl top pods 
+kubectl top pods 
+kubectl top pods 
+kubectl top pods 
+kubectl top pods --containers
+kubectl explain  pods
+kubectl explain  pods metadata
+kubectl explain  pods/metadata
+kubectl explain  pods.metadata
+kubectl explain  pods.spec
+kubectl get pods
+kubectl delete pods fastapi-vrcats
+kubectl get pods
+kubectl create -f fastapi.yaml
+kubectl get pods
+kubectl get pods
+kubectl get pods
+kubectl get pods
+kubectl get pods
+kubectl get pods
+kubectl get pods
+kubectl get pods fastapi-vrcats -o json
+docker logs fastapi-vrcats
+kubectl logs fastapi-vrcats
+kubectl logs fastapi-vrcats fastapi
+kubectl logs fastapi-vrcats fastapi --help
+kubectl logs fastapi-vrcats fastapi -f
+kubectl logs fastapi-vrcats fastapi -f
+kubectl port-forward fastapi-vrcats 80:80
+kubectl port-forward fastapi-vrcats 8080:80
+bg
+ls
+kubectl logs fastapi-vrcats fastapi -f
+fg
+git status
+history
+history -n 100
